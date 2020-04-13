@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!--Name: Sumaya Ahmed Salihs
+    Student ID: S1803463-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/TextView_TEXTVIEW"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/mustardYellow"
+        android:layout_weight="0.9"
+        android:padding="15sp"
+        android:text=""
+        android:textSize="24sp" />
+
+</LinearLayout>

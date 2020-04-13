@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Name: Sumaya Ahmed Salihs
+    Student ID: S1803463-->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <ListView
+        android:id="@+id/ListView_LIST"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1.2"
+        android:background="@color/mustardYellow"
+        android:paddingBottom="5dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"></ListView>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="392dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/mustardYellow"
+        app:layout_constraintBottom_toTopOf="@+id/ListView_LIST"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

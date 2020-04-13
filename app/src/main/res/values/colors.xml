@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Name: Sumaya Ahmed Salihs
+    Student ID: S1803463//-->
+
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorEarth">#B71C1C</color>
+    <color name="colorEarthL1">#C62828</color>
+    <color name="colorEarthL2">#D32F2F</color>
+    <color name="colorEarthYellow">#FFE57F</color>
+    <color name="colorEarthRed">#F4511E</color>
+    <color name="colorEarthBrown">#BF360C</color>
+    <color name="white">#ffffff</color>
+    <color name="DeepEarthBrown">#795548</color>
+    <color name="Black">#000000</color>
+    <color name="mustardYellow">#F9A825</color>
+    <color name="earthGreen">#9E9D24</color>
+</resources>

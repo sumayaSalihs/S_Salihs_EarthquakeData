@@ -1,0 +1,9 @@
+<resources>
+    <!--Name: Sumaya Ahmed Salihs
+    Student ID: S1803463//-->
+
+    <string name="app_name">EarthquakeData</string>
+    <string name="title_home">Home</string>
+    <string name="title_statistic">Statistic</string>
+    <string name="title_search">Search</string>
+</resources>

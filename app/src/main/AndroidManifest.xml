@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Name: Sumaya Ahmed Salihs
+Student ID: S1803463//-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mymac.earthquakedata">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EarthquakeData - S1803463"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="EarthquakeData - S1803463">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                android:configChanges="orientation|screenSize"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DetailsActivity">
+            android:configChanges="orientation|screenSize"
+            />
+        </activity>
+        <activity android:name=".StatisticActivity">
+            android:configChanges="orientation|screenSize"/>
+        </activity>
+        <activity android:name=".BaseActivity">
+            android:configChanges="orientation|screenSize"
+            />
+        </activity>
+
+        <activity android:name=".SearchActivity">
+            android:configChanges="orientation|screenSize"
+            />
+        </activity>
+
+    </application>
+
+</manifest>
